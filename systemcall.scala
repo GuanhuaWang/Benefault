@@ -118,3 +118,33 @@ In basicBlockFetcherIterator:
 //fetch local block
 => getLocalBlocks()
 => fetchResults.put(new FetchResult(id, 0, ()) => iter))
+
+
+
+// on the mapper side of shuffle read
+After the blockManager receives the fetch request
+
+=> connectionManager.receiveMessage(bufferMessage)
+=> handleMessage(connectionManagerId, message, connection)
+
+// invoke blockManagerWorker to read the block (FileSegment)
+=> blockManagerWorker.onBlockMessageReceive()
+=> blockManagerWorker.processBlockMessage(blockMessage)
+=> buffer = blockManager.getLocalBytes(blockId)
+=> buffer = diskStore.getBytes(blockId)
+=> fileSegment = diskManager.getBlockLocation(blockId)
+=> shuffleManager.getBlockLocation()
+=> if(fileSegment < minMemoryMapBytes)
+     buffer = ByteBuffer.allocate(fileSegment)
+   else
+     channel.map(MapMode.READ_ONLY, segment.offset, segment.length)
+
+
+// on the reducer side of shuffle read  
+BasicBlockFetcherIterator.next()
+=> result = results.task()
+=> while (!fetchRequests.isEmpty &&
+        (bytesInFlight == 0 || bytesInFlight + fetchRequests.front.size <= maxBytesInFlight)) {
+        sendRequest(fetchRequests.dequeue())
+      }
+=> result.deserialize()
