@@ -1,10 +1,11 @@
 //spark shell
-
+//Checkpoint write data
 sc.setCheckpointDir("data/checkpoint")
 val rddt = sc.parallelize(Array((1,2),(3,4),(5,6)),2)
 rddt.checkpoint()
 rddt.count()
 
+//checkpoint read data
 package org.apache.spark
 import org.apache.spark.rdd.RDD
 object  RDDUtilsInSpark {
