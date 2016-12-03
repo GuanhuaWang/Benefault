@@ -1,5 +1,6 @@
 //spark shell
 //Checkpoint write data
+//The directory must be a HDFS path if running on a cluster. 
 sc.setCheckpointDir("data/checkpoint")
 val rddt = sc.parallelize(Array((1,2),(3,4),(5,6)),2)
 rddt.checkpoint()
