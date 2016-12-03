@@ -62,3 +62,31 @@ In task.run(taskId)
 
 //if the task is ResultTask
 => return func(context,rdd.iterator(split,context))
+
+
+//Aftere drvier receivers StatusUpdate(result)
+driver receives StatusUpdate(result)
+=> taskScheduler.statusUpdate(taskId,State,result.value)
+=> taskResultGetter.enqueueSuccessfulTask(taskSet, tid, result)
+=> if result is indirectResult	
+		serializedTaskResult = blockManager.ggetRemoteBytes(IndirectResult.blockId)
+=> scheduler.handleSuccessfulTask(taskSetManager, tid,result)
+=> taskSetManager.handleSuccessfulTask(tid,taskResult)
+=> dagScheduler.taskEnded(result.value,result.accumUpdates)
+=> dagSchedulerEventProcessActor ! CompletionEvnet(result,accumUpdates)
+=> dageScheduler.handleTaskCompletion(completion)
+=> Accumulator.add(event.accumUpdates)
+
+//If the finished task is ResultTask
+=> if (job.numFinished == job.numPartitions)
+		listenerBus.post(SparkListenerJobEnd(job.jobId,JobSucceeded))
+=> job.listener.taskSucceeded(outputId,result)
+=> jobWaiter.taskSucceeded(index,result)
+resultHandler(index,result)
+
+//if the finished task is SHuffleMapTask()
+=> stage.addOutputLoc(smt.partitionId,status)
+=> if (all tasks in current stage have finished)
+		mapOutputTrackerMaster.registerMapOutputs(shuffleId,Array[MapStatus])
+		mapStatuses.put(shuffleId,Array[MapStatus]()++statuses)
+=> submitStage(stage)
