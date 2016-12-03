@@ -90,3 +90,31 @@ resultHandler(index,result)
 		mapOutputTrackerMaster.registerMapOutputs(shuffleId,Array[MapStatus])
 		mapStatuses.put(shuffleId,Array[MapStatus]()++statuses)
 => submitStage(stage)
+
+
+//shuffle read
+rdd.iterator()
+=> rdd(e.g. ShuffledRDD/CoGroupedRDD).compute()
+=> SparkEnv.get.shuffleFetcher.fetch(shuffleedId,split.index,context,ser)
+=>blockStoreSHuffleFetcher.fetch(shuffleId,reduceId,context,serializer)
+=>statuses = MapOutputTrackerWorker.getServersStatuses(shuffleId, reduceId)
+
+=> blocksByAddress: Seq[(BlockManagerId,Seq[(BlockId,Long)])] = compute(statuses)
+=> basicBlockFetcherIterator = blockManager.getMultiple(blocksByAddress,serializer)
+=> itr = basicBlockFetcherIterator.flatMap(unpackBlock)
+
+In basicBlockFetcherIterator:
+//generate the fetch requests
+=> basicBlockFetcherIterator.initialize()
+=> remoteRequests = splitLocalRemoteBlocks()
+=> fetchRequests ++= Utils.randomize(remoteRequests)
+
+//fetch remote block
+=> sendRequest(fetchRequests.dequeue()) until Size(fetchRequests) > maxBytesInFlight
+=> blockManger.connectionManager.sendMessageReliably(cmId,blockMessageArray,toBufferMessage)
+=> fetchResults.put(new FetchResult(blockId,sizeMap(blockId)))
+=> dataDeserialize(blockId, blockMessage.getDat, serializer)
+
+//fetch local block
+=> getLocalBlocks()
+=> fetchResults.put(new FetchResult(id, 0, ()) => iter))
