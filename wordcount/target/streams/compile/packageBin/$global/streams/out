@@ -1,15 +1,1 @@
-[0m[[0minfo[0m] [0mPackaging /Users/guanhua/Desktop/wordcount/target/scala-2.10/simple-project_2.10-1.0.jar ...[0m
-[0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	wordcount$$anonfun$3.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/guanhua/Desktop/wordcount/target/scala-2.10/classes/wordcount$$anonfun$3.class[0m
-[0m[[0mdebug[0m] [0m	wordcount.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/guanhua/Desktop/wordcount/target/scala-2.10/classes/wordcount.class[0m
-[0m[[0mdebug[0m] [0m	wordcount$.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/guanhua/Desktop/wordcount/target/scala-2.10/classes/wordcount$.class[0m
-[0m[[0mdebug[0m] [0m	wordcount$$anonfun$2.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/guanhua/Desktop/wordcount/target/scala-2.10/classes/wordcount$$anonfun$2.class[0m
-[0m[[0mdebug[0m] [0m	wordcount$$anonfun$main$1.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/guanhua/Desktop/wordcount/target/scala-2.10/classes/wordcount$$anonfun$main$1.class[0m
-[0m[[0mdebug[0m] [0m	wordcount$$anonfun$1.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/guanhua/Desktop/wordcount/target/scala-2.10/classes/wordcount$$anonfun$1.class[0m
-[0m[[0minfo[0m] [0mDone packaging.[0m
+[0m[[0mdebug[0m] [0mJar uptodate: /Users/guanhua/Desktop/wordcount/target/scala-2.10/simple-project_2.10-1.0.jar[0m
