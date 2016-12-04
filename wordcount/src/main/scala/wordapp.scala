@@ -1,5 +1,5 @@
 /* WordCount.scala */
-package org.apache.spark
+//package org.apache.spark
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
@@ -17,8 +17,8 @@ object wordcount {
     	//map_counts.collect().foreach(println) 
         //val result : RDD[Any]= sc.checkpointFile("data/checkpoint/07ebd902-7bf9-4df3-9c35-c5c43cd4c73c/rdd-3")
     	//result.asInstanceOf[T]
-        val rdd : RDD[(String, Int)]= RDDUtilsInSpark.getCheckpointRDD(sc, "data/checkpoint/07ebd902-7bf9-4df3-9c35-c5c43cd4c73c/rdd-3")
-        val reduce_counts = rdd.reduceByKey(_ + _)
+        //val rdd : RDD[(String, Int)]= RDDUtilsInSpark.getCheckpointRDD(sc, "data/checkpoint/07ebd902-7bf9-4df3-9c35-c5c43cd4c73c/rdd-3")
+        val reduce_counts = map_counts.reduceByKey(_ + _)
     	reduce_counts.saveAsTextFile("file:///Users/guanhua/Desktop/spark-hadoop2.6/wordcounts")
         //reduce_counts.collect().foreach(println)        
 	}
