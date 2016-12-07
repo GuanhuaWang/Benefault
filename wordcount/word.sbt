@@ -1,4 +1,4 @@
-name := "WordCount"
+name := "WGH_WordCount"
 
 version := "1.0"
 

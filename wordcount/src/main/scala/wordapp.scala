@@ -8,7 +8,7 @@ import org.apache.spark.rdd.RDD
 object wordcount {
 	def main(args: Array[String]){
         val timestamp1: Long = System.currentTimeMillis
-		val logFile = "file:///Users/guanhua/Desktop/5G.txt"
+		val logFile = "file:///Users/guanhua/Desktop/500m.txt"
 		val conf = new SparkConf().setAppName("Word Count")
     	val sc = new SparkContext(conf)
     	val logData = sc.textFile(logFile, 5)
