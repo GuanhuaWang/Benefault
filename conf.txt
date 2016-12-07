@@ -1,2 +1,8 @@
 //Add data into HDFS
 ephemeral-hdfs/bin/hadoop fs -put ~/spark/README.md /user/root/read.md
+
+//In Spark Shell:
+//word Count
+val data = sc.textFile("read.md")
+val wc = data.flatMap(line => line.split(' ')).map(word => (word,1)).cache()
+wc.reduceByKey(_+_).collect().foreach(println)
