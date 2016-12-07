@@ -5,7 +5,7 @@ import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 object RDDUtilsInSpark {
   def getCheckpointRDD[T](sc:SparkContext, path:String) = {
-    val result : RDD[Any] = sc.checkpointFile(path)
+    val result : RDD[Any] = sc.getCheckpointFile(path)
     result.asInstanceOf[T]
   }
 }
