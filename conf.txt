@@ -1,0 +1,2 @@
+//Add data into HDFS
+ephemeral-hdfs/bin/hadoop fs -put ~/spark/README.md /user/root/read.md
