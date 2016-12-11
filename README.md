@@ -11,3 +11,4 @@ A way for task preemption in Big data analytics platform
 * Sorting with checkpoint
 * GroupByKey with Checkpointing
 * DecisionTree with periodic Checkpointing
+* We now design schemes for evaluate best gain we can get using Benefault
