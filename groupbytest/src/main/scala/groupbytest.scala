@@ -8,6 +8,7 @@ import org.apache.spark.rdd.RDD
 object groupByTest {
 
    def main(args: Array[String]) {
+    val timestamp1: Long = System.currentTimeMillis
     val conf = new SparkConf().setAppName("GroupByKey").setMaster("local")
     val sc = new SparkContext(conf) 
     sc.setCheckpointDir("data/checkpoint")
@@ -25,7 +26,9 @@ object groupByTest {
     val result = pairs.groupByKey(2)
 
     result.foreachWith(i => i)((x, i) => println("[PartitionIndex " + i + "] " + x))
-    val timestamp3: Long = System.currentTimeMillis
+    val timestamp2: Long = System.currentTimeMillis
+    val totaltime = timestamp2-timestamp1
+    println("=====================total time is  "+totaltime+"===================")
     println(result.toDebugString)
    }
 }

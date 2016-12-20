@@ -1,7 +1,1 @@
-[0m[[0minfo[0m] [0mPackaging /Users/guanhua/Desktop/decision/target/scala-2.10/wghexperiments_2.10-1.0.jar ...[0m
-[0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	DecisionTreeExample_Checkpointing$.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/guanhua/Desktop/decision/target/scala-2.10/classes/DecisionTreeExample_Checkpointing$.class[0m
-[0m[[0mdebug[0m] [0m	DecisionTreeExample_Checkpointing.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/guanhua/Desktop/decision/target/scala-2.10/classes/DecisionTreeExample_Checkpointing.class[0m
-[0m[[0minfo[0m] [0mDone packaging.[0m
+[0m[[0mdebug[0m] [0mJar uptodate: /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/scala-2.10/wghexperiments_2.10-1.0.jar[0m

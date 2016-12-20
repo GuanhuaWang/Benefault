@@ -4,7 +4,7 @@ output mode:
 0 -> single
 output directories:
 1 items
-output dir -> /Users/guanhua/Desktop/decision/target/scala-2.10/classes
+output dir -> /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/scala-2.10/classes
 compile options:
 0 items
 javac options:
@@ -20,15 +20,15 @@ name hashing:
 0 -> true
 products:
 2 items
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> /Users/guanhua/Desktop/decision/target/scala-2.10/classes/DecisionTreeExample_Checkpointing$.class
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> /Users/guanhua/Desktop/decision/target/scala-2.10/classes/DecisionTreeExample_Checkpointing.class
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/scala-2.10/classes/DecisionTreeExample_Checkpointing$.class
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/scala-2.10/classes/DecisionTreeExample_Checkpointing.class
 binary dependencies:
 5 items
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> /Users/guanhua/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.1.jar
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> /Users/guanhua/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.1.jar
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> /Users/guanhua/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.1.jar
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> /Users/guanhua/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> /Users/guanhua/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.1.jar
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> /Users/guanhua/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.1.jar
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> /Users/guanhua/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.1.jar
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> /Users/guanhua/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -47,102 +47,102 @@ inheritance external dependencies:
 0 items
 class names:
 2 items
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> DecisionTreeExample_Checkpointing
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> DecisionTreeExample_Checkpointing$
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> DecisionTreeExample_Checkpointing
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> DecisionTreeExample_Checkpointing$
 used names:
 85 items
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> !=
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> &&
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> +
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> -
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> <init>
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> ==
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> AnyRef
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> Array
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> ClassTag
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> DecisionTreeClassificationModel
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> DecisionTreeClassifier
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> DecisionTreeExample_Checkpointing
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> IndexToString
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> MulticlassClassificationEvaluator
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> Pipeline
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> Predef
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> SQLContext
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> SparkConf
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> SparkContext
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> String
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> StringIndexer
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> Unit
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> VectorIndexer
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> _1
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> _2
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> accuracy
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> apache
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> apply
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> asInstanceOf
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> classification
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> conf
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> data
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> dt
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> evaluate
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> evaluation
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> evaluator
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> feature
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> featureIndexer
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> fit
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> format
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> get
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> isEmpty
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> labelConverter
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> labelIndexer
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> labels
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> lengthCompare
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> load
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> materializeClassTag
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> ml
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> model
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> org
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> package
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> pipeline
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> predictions
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> println
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> randomSplit
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> read
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> sc
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> scala
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> select
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> setAppName
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> setCheckpointDir
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> setCheckpointInterval
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> setFeaturesCol
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> setInputCol
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> setLabelCol
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> setLabels
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> setMaxCategories
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> setMetricName
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> setOutputCol
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> setPredictionCol
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> setStages
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> show
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> spark
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> sql
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> sqlContext
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> stages
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> testData
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> toDebugString
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> trainingData
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> transform
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> treeModel
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> unapplySeq
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> unary_!
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> unchecked
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> !=
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> &&
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> +
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> -
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> <init>
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> ==
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> AnyRef
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> Array
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> ClassTag
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> DecisionTreeClassificationModel
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> DecisionTreeClassifier
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> DecisionTreeExample_Checkpointing
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> IndexToString
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> MulticlassClassificationEvaluator
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> Pipeline
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> Predef
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> SQLContext
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> SparkConf
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> SparkContext
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> String
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> StringIndexer
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> Unit
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> VectorIndexer
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> _1
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> _2
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> accuracy
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> apache
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> apply
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> asInstanceOf
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> classification
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> conf
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> data
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> dt
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> evaluate
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> evaluation
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> evaluator
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> feature
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> featureIndexer
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> fit
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> format
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> get
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> isEmpty
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> labelConverter
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> labelIndexer
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> labels
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> lengthCompare
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> load
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> materializeClassTag
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> ml
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> model
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> org
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> package
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> pipeline
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> predictions
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> println
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> randomSplit
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> read
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> sc
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> scala
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> select
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> setAppName
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> setCheckpointDir
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> setCheckpointInterval
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> setFeaturesCol
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> setInputCol
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> setLabelCol
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> setLabels
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> setMaxCategories
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> setMetricName
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> setOutputCol
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> setPredictionCol
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> setStages
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> show
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> spark
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> sql
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> sqlContext
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> stages
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> testData
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> toDebugString
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> trainingData
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> transform
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> treeModel
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> unapplySeq
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> unary_!
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> unchecked
 product stamps:
 2 items
-/Users/guanhua/Desktop/decision/target/scala-2.10/classes/DecisionTreeExample_Checkpointing$.class -> lastModified(1481153319000)
-/Users/guanhua/Desktop/decision/target/scala-2.10/classes/DecisionTreeExample_Checkpointing.class -> lastModified(1481153319000)
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/scala-2.10/classes/DecisionTreeExample_Checkpointing$.class -> lastModified(1481154493000)
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/scala-2.10/classes/DecisionTreeExample_Checkpointing.class -> lastModified(1481154493000)
 source stamps:
 1 items
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> hash(f8a6cbb31023d73c9416f12011ab63b7895b7b54)
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> hash(f8a6cbb31023d73c9416f12011ab63b7895b7b54)
 binary stamps:
 5 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1444172124000)
@@ -153,22 +153,22 @@ binary stamps:
 class names:
 5 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
-/Users/guanhua/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.1.jar -> org.apache.spark.SparkConf
-/Users/guanhua/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.1.jar -> org.apache.spark.ml.classification.DecisionTreeClassificationModel
-/Users/guanhua/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.1.jar -> org.apache.spark.sql.SQLContext$
-/Users/guanhua/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> scala.Int
+/Users/guanhua/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.1.jar -> org.apache.spark.SparkContext$
+/Users/guanhua/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.1.jar -> org.apache.spark.ml.feature.StringIndexerModel
+/Users/guanhua/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.1.jar -> org.apache.spark.sql.DataFrameReader
+/Users/guanhua/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> scala.Array$
 internal apis:
 1 items
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDqeSNxAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cISpkGh0AAZub3RpZnlzcQB+AAyOMAiWdAAEd2FpdHNxAH4ADEC+TTd0AA0kYXNJbnN0YW5jZU9mc3EAfgAMnHGKGnQABmVxdWFsc3NxAH4ADO4oVb90ACFEZWNpc2lvblRyZWVFeGFtcGxlX0NoZWNrcG9pbnRpbmdzcQB+AAxBn3gldAAMYXNJbnN0YW5jZU9mc3EAfgAMBSYZ8nQADHN5bmNocm9uaXplZHNxAH4ADPKcbFd0AA0kaXNJbnN0YW5jZU9mc3EAfgAMcbzUEHQABG1haW5zcQB+AAy520JtdAAJbm90aWZ5QWxsc3EAfgAM8OU7fHQADGlzSW5zdGFuY2VPZnNxAH4ADOaDb2B0AAI9PXNxAH4ADGM+iHx0AAVjbG9uZXNxAH4ADNcBHsh0AAh0b1N0cmluZ3NxAH4ADM8LmxN0AAIhPXNxAH4ADEflNkx0AAhnZXRDbGFzc3NxAH4ADDxlQqF0AAJuZXNxAH4ADEy0cJ10AAJlcXNxAH4ADHv8n190AAIjI3NxAH4ADGqlNBR0AAhmaW5hbGl6ZXNxAH4ADDgxgiJ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AF3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AWAFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBfc3EAfgBYAXVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AH3VxAH4AUAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBedAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AenVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGd4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFN0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AG5bAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AF5zcQB+AG10AAVBcnJheXEAfgBzdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AG10AAZTdHJpbmdzcQB+AHFzcQB+AHR1cQB+AHcAAAADc3EAfgB5dAAEamF2YXNxAH4AeXQABGxhbmdxAH4AfnBzcQB+AFgBdXEAfgA8AAAAAHBzcQB+AFgBdXEAfgCSAAAAAnNxAH4AbXQABk9iamVjdHEAfgCWc3EAfgBtdAADQW55cQB+AHNwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFY254EzXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvVXNlcnMvZ3Vhbmh1YS9EZXNrdG9wL2RlY2lzaW9uL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABT4psuzECPXPJQW8SARq2O3iVt7VA==
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDqeSNxAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cISpkGh0AAZub3RpZnlzcQB+AAyOMAiWdAAEd2FpdHNxAH4ADEC+TTd0AA0kYXNJbnN0YW5jZU9mc3EAfgAMnHGKGnQABmVxdWFsc3NxAH4ADO4oVb90ACFEZWNpc2lvblRyZWVFeGFtcGxlX0NoZWNrcG9pbnRpbmdzcQB+AAxBn3gldAAMYXNJbnN0YW5jZU9mc3EAfgAMBSYZ8nQADHN5bmNocm9uaXplZHNxAH4ADPKcbFd0AA0kaXNJbnN0YW5jZU9mc3EAfgAMcbzUEHQABG1haW5zcQB+AAy520JtdAAJbm90aWZ5QWxsc3EAfgAM8OU7fHQADGlzSW5zdGFuY2VPZnNxAH4ADOaDb2B0AAI9PXNxAH4ADGM+iHx0AAVjbG9uZXNxAH4ADNcBHsh0AAh0b1N0cmluZ3NxAH4ADM8LmxN0AAIhPXNxAH4ADEflNkx0AAhnZXRDbGFzc3NxAH4ADDxlQqF0AAJuZXNxAH4ADEy0cJ10AAJlcXNxAH4ADHv8n190AAIjI3NxAH4ADGqlNBR0AAhmaW5hbGl6ZXNxAH4ADDgxgiJ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AF3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFl4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFgAcHNxAH4AXXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGFzcQB+AFgAcHNxAH4AXXVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AH3VxAH4AUAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBgdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AfnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGt4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFN0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHJbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGBzcQB+AHF0AAVBcnJheXEAfgB3dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHF0AAZTdHJpbmdzcQB+AHVzcQB+AHh1cQB+AHsAAAADc3EAfgB9dAAEamF2YXNxAH4AfXQABGxhbmdxAH4AgnNxAH4AWABwc3EAfgBddXEAfgA8AAAAAHNxAH4AWABwc3EAfgBddXEAfgCWAAAAAnNxAH4AcXQABk9iamVjdHEAfgCac3EAfgBxdAADQW55cQB+AHd1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWNuv7+91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABSL1VzZXJzL2d1YW5odWEvRGVza3RvcC9CZW5lZmF1bHQvZGVjaXNpb25UcmVlX3NwYXJrMS42LjEvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFPimy7MQI9c8lBbxIBGrY7eJW3tU
 external apis:
 0 items
 source infos:
 1 items
-/Users/guanhua/Desktop/decision/src/main/scala/DecisionTreeExample.scala -> 
+/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/src/main/scala/DecisionTreeExample.scala -> 
 AAAAAAAAAAA=
 compilations:
-9 items
+10 items
 0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWNuEwUF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9ndWFuaHVhL0Rlc2t0b3AvZGVjaXNpb24vdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
 1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWNuGHN51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9ndWFuaHVhL0Rlc2t0b3AvZGVjaXNpb24vdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
 2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWNuLB811cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9ndWFuaHVhL0Rlc2t0b3AvZGVjaXNpb24vdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
@@ -178,3 +178,4 @@ compilations:
 6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWNuX3fB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9ndWFuaHVhL0Rlc2t0b3AvZGVjaXNpb24vdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
 7 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWNubzmR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9ndWFuaHVhL0Rlc2t0b3AvZGVjaXNpb24vdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
 8 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWNueBM11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9ndWFuaHVhL0Rlc2t0b3AvZGVjaXNpb24vdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+9 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWNuv7+91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9Vc2Vycy9ndWFuaHVhL0Rlc2t0b3AvQmVuZWZhdWx0L2RlY2lzaW9uVHJlZV9zcGFyazEuNi4xL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv

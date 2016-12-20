@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/guanhua/Desktop/decision/}decision...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/}decisiontree_spark1-6-1...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: wghexperiments#wghexperiments_2.10;1.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for wghexperiments#wghexperiments_2.10;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies wghexperiments#wghexperiments_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79c04b3[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1047adf6[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
@@ -17,43 +17,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies wghexperiments#wghexperiments_2.10;1.0->org.apache.spark#spark-core_2.10;1.6.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;1.6.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-core_2.10;1.6.1 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-core_2.10;1.6.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-core_2.10/1.6.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-core_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-core_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1.pom (1.6.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.10;1.6.1!spark-core_2.10.pom(pom.original) (866ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.6.1 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.6.1 {}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-parent_2.10/1.6.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-parent_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.6.1/spark-parent_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-parent_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.6.1/spark-parent_2.10-1.6.1.pom (1.6.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.6.1/spark-parent_2.10-1.6.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.6.1/spark-parent_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.6.1/spark-parent_2.10-1.6.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.6.1/spark-parent_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-parent_2.10;1.6.1!spark-parent_2.10.pom(pom.original) (1494ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;14 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;14 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;14[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-parent_2.10/1.6.1/jars/spark-parent_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.6.1/spark-parent_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.6.1/spark-parent_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/1.6.1/spark-parent_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/1.6.1/spark-parent_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-core_2.10/1.6.1/jars/spark-core_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-core_2.10;1.6.1 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-core_2.10;1.6.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-core_2.10;1.6.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies wghexperiments#wghexperiments_2.10;1.0->org.apache.spark#spark-core_2.10;1.6.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies wghexperiments#wghexperiments_2.10;1.0->org.apache.spark#spark-core_2.10;1.6.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.apache.avro#avro-mapred;1.7.7 [compile->master(compile)][0m
@@ -266,100 +231,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.xbean#xbean-asm5-shaded;4.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.xbean#xbean-asm5-shaded;4.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.xbean#xbean-asm5-shaded;4.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.xbean#xbean-asm5-shaded;4.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.xbean/xbean-asm5-shaded/4.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.xbean#xbean-asm5-shaded;4.4[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.xbean#xbean-asm5-shaded;4.4[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.pom (4.4)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.xbean#xbean-asm5-shaded;4.4!xbean-asm5-shaded.pom(pom.original) (388ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.xbean#xbean;4.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.xbean#xbean;4.4 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.xbean#xbean;4.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.xbean#xbean;4.4 {}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.xbean/xbean/4.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.xbean#xbean;4.4[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/xbean/xbean/4.4/xbean-4.4.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.xbean#xbean;4.4[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/xbean/xbean/4.4/xbean-4.4.pom (4.4)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/xbean/xbean/4.4/xbean-4.4.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/xbean/xbean/4.4/xbean-4.4.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/xbean/xbean/4.4/xbean-4.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/xbean/xbean/4.4/xbean-4.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.xbean#xbean;4.4!xbean.pom(pom.original) (475ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.geronimo.genesis#genesis-java5-flava;2.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.geronimo.genesis#genesis-java5-flava;2.1 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.geronimo.genesis#genesis-java5-flava;2.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.geronimo.genesis#genesis-java5-flava;2.1 {}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.geronimo.genesis/genesis-java5-flava/2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.geronimo.genesis#genesis-java5-flava;2.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-java5-flava/2.1/genesis-java5-flava-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.geronimo.genesis#genesis-java5-flava;2.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-java5-flava/2.1/genesis-java5-flava-2.1.pom (2.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-java5-flava/2.1/genesis-java5-flava-2.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-java5-flava/2.1/genesis-java5-flava-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-java5-flava/2.1/genesis-java5-flava-2.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-java5-flava/2.1/genesis-java5-flava-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.geronimo.genesis#genesis-java5-flava;2.1!genesis-java5-flava.pom(pom.original) (483ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.geronimo.genesis#genesis-default-flava;2.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.geronimo.genesis#genesis-default-flava;2.1 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.geronimo.genesis#genesis-default-flava;2.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.geronimo.genesis#genesis-default-flava;2.1 {}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.geronimo.genesis/genesis-default-flava/2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.geronimo.genesis#genesis-default-flava;2.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-default-flava/2.1/genesis-default-flava-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.geronimo.genesis#genesis-default-flava;2.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-default-flava/2.1/genesis-default-flava-2.1.pom (2.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-default-flava/2.1/genesis-default-flava-2.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-default-flava/2.1/genesis-default-flava-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-default-flava/2.1/genesis-default-flava-2.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-default-flava/2.1/genesis-default-flava-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.geronimo.genesis#genesis-default-flava;2.1!genesis-default-flava.pom(pom.original) (613ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.geronimo.genesis#genesis;2.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.geronimo.genesis#genesis;2.1 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.geronimo.genesis#genesis;2.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.geronimo.genesis#genesis;2.1 {}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.geronimo.genesis/genesis/2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.geronimo.genesis#genesis;2.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis/2.1/genesis-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.geronimo.genesis#genesis;2.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis/2.1/genesis-2.1.pom (2.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis/2.1/genesis-2.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis/2.1/genesis-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis/2.1/genesis-2.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis/2.1/genesis-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.geronimo.genesis#genesis;2.1!genesis.pom(pom.original) (888ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;13 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;13 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;13[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.geronimo.genesis/genesis/2.1/jars/genesis.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis/2.1/genesis-2.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis/2.1/genesis-2.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/geronimo/genesis/genesis/2.1/genesis-2.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/geronimo/genesis/genesis/2.1/genesis-2.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.geronimo.genesis/genesis-default-flava/2.1/jars/genesis-default-flava.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-default-flava/2.1/genesis-default-flava-2.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-default-flava/2.1/genesis-default-flava-2.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/geronimo/genesis/genesis-default-flava/2.1/genesis-default-flava-2.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/geronimo/genesis/genesis-default-flava/2.1/genesis-default-flava-2.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.geronimo.genesis/genesis-java5-flava/2.1/jars/genesis-java5-flava.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-java5-flava/2.1/genesis-java5-flava-2.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-java5-flava/2.1/genesis-java5-flava-2.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/geronimo/genesis/genesis-java5-flava/2.1/genesis-java5-flava-2.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/geronimo/genesis/genesis-java5-flava/2.1/genesis-java5-flava-2.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.xbean/xbean/4.4/jars/xbean.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/xbean/xbean/4.4/xbean-4.4.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/xbean/xbean/4.4/xbean-4.4.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/xbean/xbean/4.4/xbean-4.4.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/xbean/xbean/4.4/xbean-4.4.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.xbean/xbean-asm5-shaded/4.4/bundles/xbean-asm5-shaded.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.xbean#xbean-asm5-shaded;4.4 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.xbean#xbean-asm5-shaded;4.4[0m
+[0m[[0mdebug[0m] [0m	found org.apache.xbean#xbean-asm5-shaded;4.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->compile][0m
@@ -2263,24 +2136,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.apache.spark#spark-launcher_2.10;1.6.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-launcher_2.10;1.6.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-launcher_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-launcher_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-launcher_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-launcher_2.10/1.6.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-launcher_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.6.1/spark-launcher_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-launcher_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.6.1/spark-launcher_2.10-1.6.1.pom (1.6.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.6.1/spark-launcher_2.10-1.6.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.6.1/spark-launcher_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.6.1/spark-launcher_2.10-1.6.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.6.1/spark-launcher_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.10;1.6.1!spark-launcher_2.10.pom(pom.original) (270ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.6.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-launcher_2.10/1.6.1/jars/spark-launcher_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.6.1/spark-launcher_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-launcher_2.10;1.6.1 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-launcher_2.10;1.6.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-launcher_2.10;1.6.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.apache.spark#spark-launcher_2.10;1.6.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-launcher_2.10;1.6.1->org.spark-project.spark#unused;1.0.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.spark-project.spark#unused;1.0.0 ...[0m
@@ -2297,24 +2154,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.apache.spark#spark-network-common_2.10;1.6.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-common_2.10;1.6.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-network-common_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-common_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-network-common_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-network-common_2.10/1.6.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-network-common_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.6.1/spark-network-common_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-network-common_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.6.1/spark-network-common_2.10-1.6.1.pom (1.6.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.6.1/spark-network-common_2.10-1.6.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.6.1/spark-network-common_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.6.1/spark-network-common_2.10-1.6.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.6.1/spark-network-common_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.10;1.6.1!spark-network-common_2.10.pom(pom.original) (497ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.6.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-network-common_2.10/1.6.1/jars/spark-network-common_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.6.1/spark-network-common_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-network-common_2.10;1.6.1 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-network-common_2.10;1.6.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-network-common_2.10;1.6.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.apache.spark#spark-network-common_2.10;1.6.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-network-common_2.10;1.6.1->io.netty#netty-all;4.0.29.Final [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving io.netty#netty-all;4.0.29.Final ...[0m
@@ -2339,24 +2180,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.apache.spark#spark-network-shuffle_2.10;1.6.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-shuffle_2.10;1.6.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-network-shuffle_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-shuffle_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-network-shuffle_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-network-shuffle_2.10/1.6.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-network-shuffle_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.6.1/spark-network-shuffle_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-network-shuffle_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.6.1/spark-network-shuffle_2.10-1.6.1.pom (1.6.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.6.1/spark-network-shuffle_2.10-1.6.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.6.1/spark-network-shuffle_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.6.1/spark-network-shuffle_2.10-1.6.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.6.1/spark-network-shuffle_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.10;1.6.1!spark-network-shuffle_2.10.pom(pom.original) (713ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.6.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-network-shuffle_2.10/1.6.1/jars/spark-network-shuffle_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.6.1/spark-network-shuffle_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-network-shuffle_2.10;1.6.1 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-network-shuffle_2.10;1.6.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-network-shuffle_2.10;1.6.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.apache.spark#spark-network-shuffle_2.10;1.6.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-network-shuffle_2.10;1.6.1->org.apache.spark#spark-network-common_2.10;1.6.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-network-shuffle_2.10;1.6.1->org.apache.spark#spark-network-common_2.10;1.6.1 [compile->compile(*)][0m
@@ -2410,24 +2235,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.apache.spark#spark-unsafe_2.10;1.6.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-unsafe_2.10;1.6.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-unsafe_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-unsafe_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-unsafe_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-unsafe_2.10/1.6.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-unsafe_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-unsafe_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.pom (1.6.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-unsafe_2.10;1.6.1!spark-unsafe_2.10.pom(pom.original) (297ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.6.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-unsafe_2.10/1.6.1/jars/spark-unsafe_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-unsafe_2.10;1.6.1 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-unsafe_2.10;1.6.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-unsafe_2.10;1.6.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.apache.spark#spark-unsafe_2.10;1.6.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-unsafe_2.10;1.6.1->com.twitter#chill_2.10;0.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-unsafe_2.10;1.6.1->com.twitter#chill_2.10;0.5.0 [compile->compile(*)][0m
@@ -2643,21 +2452,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.xerial.snappy#snappy-java;1.1.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.xerial.snappy#snappy-java;1.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.xerial.snappy#snappy-java;1.1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.xerial.snappy#snappy-java;1.1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.xerial.snappy#snappy-java;1.1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.xerial.snappy/snappy-java/1.1.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.xerial.snappy#snappy-java;1.1.2[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.xerial.snappy#snappy-java;1.1.2[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.pom (1.1.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.xerial.snappy#snappy-java;1.1.2!snappy-java.pom(pom.original) (461ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.xerial.snappy/snappy-java/1.1.2/bundles/snappy-java.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.xerial.snappy#snappy-java;1.1.2 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.xerial.snappy#snappy-java;1.1.2[0m
+[0m[[0mdebug[0m] [0m	found org.xerial.snappy#snappy-java;1.1.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.xerial.snappy#snappy-java;1.1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.xerial.snappy#snappy-java;1.1.2 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.xerial.snappy#snappy-java;1.1.2 [compile->compile][0m
@@ -2672,24 +2468,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.roaringbitmap#RoaringBitmap;0.5.11 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.roaringbitmap#RoaringBitmap;0.5.11 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.roaringbitmap#RoaringBitmap;0.5.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.roaringbitmap#RoaringBitmap;0.5.11 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.roaringbitmap#RoaringBitmap;0.5.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.roaringbitmap/RoaringBitmap/0.5.11/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.roaringbitmap#RoaringBitmap;0.5.11[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.roaringbitmap#RoaringBitmap;0.5.11[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom (0.5.11)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.roaringbitmap#RoaringBitmap;0.5.11!RoaringBitmap.pom(pom.original) (547ms)[0m
-[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;5 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;5[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.roaringbitmap/RoaringBitmap/0.5.11/bundles/RoaringBitmap.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar[0m
-[0m[[0mdebug[0m] [0m	found org.roaringbitmap#RoaringBitmap;0.5.11 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.roaringbitmap#RoaringBitmap;0.5.11[0m
+[0m[[0mdebug[0m] [0m	found org.roaringbitmap#RoaringBitmap;0.5.11 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.roaringbitmap#RoaringBitmap;0.5.11 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.roaringbitmap#RoaringBitmap;0.5.11 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.roaringbitmap#RoaringBitmap;0.5.11 [compile->compile][0m
@@ -3090,62 +2870,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.tachyonproject#tachyon-client;0.8.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-client;0.8.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.tachyonproject#tachyon-client;0.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-client;0.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.tachyonproject#tachyon-client;0.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-client/0.8.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.tachyonproject#tachyon-client;0.8.2[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.tachyonproject#tachyon-client;0.8.2[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.pom (0.8.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-client;0.8.2!tachyon-client.pom(pom.original) (761ms)[0m
-[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-clients;0.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.tachyonproject#tachyon-clients;0.8.2 {}[0m
-[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-clients;0.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.tachyonproject#tachyon-clients;0.8.2 {}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-clients/0.8.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.tachyonproject#tachyon-clients;0.8.2[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-clients/0.8.2/tachyon-clients-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.tachyonproject#tachyon-clients;0.8.2[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/tachyonproject/tachyon-clients/0.8.2/tachyon-clients-0.8.2.pom (0.8.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/tachyonproject/tachyon-clients/0.8.2/tachyon-clients-0.8.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-clients/0.8.2/tachyon-clients-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-clients/0.8.2/tachyon-clients-0.8.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/tachyonproject/tachyon-clients/0.8.2/tachyon-clients-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-clients;0.8.2!tachyon-clients.pom(pom.original) (416ms)[0m
-[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-parent;0.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.tachyonproject#tachyon-parent;0.8.2 {}[0m
-[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-parent;0.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.tachyonproject#tachyon-parent;0.8.2 {}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-parent/0.8.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.tachyonproject#tachyon-parent;0.8.2[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-parent/0.8.2/tachyon-parent-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.tachyonproject#tachyon-parent;0.8.2[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/tachyonproject/tachyon-parent/0.8.2/tachyon-parent-0.8.2.pom (0.8.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/tachyonproject/tachyon-parent/0.8.2/tachyon-parent-0.8.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-parent/0.8.2/tachyon-parent-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-parent/0.8.2/tachyon-parent-0.8.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/tachyonproject/tachyon-parent/0.8.2/tachyon-parent-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-parent;0.8.2!tachyon-parent.pom(pom.original) (380ms)[0m
-[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-parent/0.8.2/jars/tachyon-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-parent/0.8.2/tachyon-parent-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/tachyonproject/tachyon-parent/0.8.2/tachyon-parent-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/tachyonproject/tachyon-parent/0.8.2/tachyon-parent-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/tachyonproject/tachyon-parent/0.8.2/tachyon-parent-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-clients/0.8.2/jars/tachyon-clients.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-clients/0.8.2/tachyon-clients-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/tachyonproject/tachyon-clients/0.8.2/tachyon-clients-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/tachyonproject/tachyon-clients/0.8.2/tachyon-clients-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/tachyonproject/tachyon-clients/0.8.2/tachyon-clients-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-client/0.8.2/jars/tachyon-client.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.tachyonproject#tachyon-client;0.8.2 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.tachyonproject#tachyon-client;0.8.2[0m
+[0m[[0mdebug[0m] [0m	found org.tachyonproject#tachyon-client;0.8.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.6.1->org.tachyonproject#tachyon-client;0.8.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.curator#curator-framework;2.1.0-incubating {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.curator#curator-client;2.1.0-incubating {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -3200,43 +2926,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.hadoop#hadoop-client;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-underfs-hdfs;0.8.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.tachyonproject#tachyon-underfs-hdfs;0.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-underfs-hdfs;0.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.tachyonproject#tachyon-underfs-hdfs;0.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-underfs-hdfs/0.8.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.tachyonproject#tachyon-underfs-hdfs;0.8.2[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.tachyonproject#tachyon-underfs-hdfs;0.8.2[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.pom (0.8.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-underfs-hdfs;0.8.2!tachyon-underfs-hdfs.pom(pom.original) (300ms)[0m
-[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-underfs;0.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.tachyonproject#tachyon-underfs;0.8.2 {}[0m
-[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-underfs;0.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.tachyonproject#tachyon-underfs;0.8.2 {}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-underfs/0.8.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.tachyonproject#tachyon-underfs;0.8.2[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs/0.8.2/tachyon-underfs-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.tachyonproject#tachyon-underfs;0.8.2[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs/0.8.2/tachyon-underfs-0.8.2.pom (0.8.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs/0.8.2/tachyon-underfs-0.8.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs/0.8.2/tachyon-underfs-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs/0.8.2/tachyon-underfs-0.8.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs/0.8.2/tachyon-underfs-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-underfs;0.8.2!tachyon-underfs.pom(pom.original) (299ms)[0m
-[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-parent;0.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.tachyonproject#tachyon-parent;0.8.2 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.tachyonproject#tachyon-parent;0.8.2[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-underfs/0.8.2/jars/tachyon-underfs.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs/0.8.2/tachyon-underfs-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs/0.8.2/tachyon-underfs-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs/0.8.2/tachyon-underfs-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs/0.8.2/tachyon-underfs-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-underfs-hdfs/0.8.2/jars/tachyon-underfs-hdfs.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.tachyonproject#tachyon-underfs-hdfs;0.8.2 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.tachyonproject#tachyon-underfs-hdfs;0.8.2[0m
+[0m[[0mdebug[0m] [0m	found org.tachyonproject#tachyon-underfs-hdfs;0.8.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.tachyonproject#tachyon-client;0.8.2->org.tachyonproject#tachyon-underfs-hdfs;0.8.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.hadoop#hadoop-client;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.tachyonproject#tachyon-common;0.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -3263,24 +2954,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.hadoop#hadoop-client;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-underfs-s3;0.8.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.tachyonproject#tachyon-underfs-s3;0.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-underfs-s3;0.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.tachyonproject#tachyon-underfs-s3;0.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-underfs-s3/0.8.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.tachyonproject#tachyon-underfs-s3;0.8.2[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.tachyonproject#tachyon-underfs-s3;0.8.2[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.pom (0.8.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-underfs-s3;0.8.2!tachyon-underfs-s3.pom(pom.original) (293ms)[0m
-[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-underfs;0.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.tachyonproject#tachyon-underfs;0.8.2 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.tachyonproject#tachyon-underfs;0.8.2[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-underfs-s3/0.8.2/jars/tachyon-underfs-s3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.tachyonproject#tachyon-underfs-s3;0.8.2 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.tachyonproject#tachyon-underfs-s3;0.8.2[0m
+[0m[[0mdebug[0m] [0m	found org.tachyonproject#tachyon-underfs-s3;0.8.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.tachyonproject#tachyon-client;0.8.2->org.tachyonproject#tachyon-underfs-s3;0.8.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.tachyonproject#tachyon-common;0.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.tachyonproject#tachyon-underfs-s3;0.8.2->com.google.guava#guava;14.0.1 [compile->master(compile)][0m
@@ -3298,24 +2973,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.hadoop#hadoop-client;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-underfs-local;0.8.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.tachyonproject#tachyon-underfs-local;0.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-underfs-local;0.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.tachyonproject#tachyon-underfs-local;0.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-underfs-local/0.8.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.tachyonproject#tachyon-underfs-local;0.8.2[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.tachyonproject#tachyon-underfs-local;0.8.2[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.pom (0.8.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-underfs-local;0.8.2!tachyon-underfs-local.pom(pom.original) (324ms)[0m
-[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-underfs;0.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.tachyonproject#tachyon-underfs;0.8.2 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.tachyonproject#tachyon-underfs;0.8.2[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.tachyonproject/tachyon-underfs-local/0.8.2/jars/tachyon-underfs-local.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.tachyonproject#tachyon-underfs-local;0.8.2 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.tachyonproject#tachyon-underfs-local;0.8.2[0m
+[0m[[0mdebug[0m] [0m	found org.tachyonproject#tachyon-underfs-local;0.8.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.tachyonproject#tachyon-client;0.8.2->org.tachyonproject#tachyon-underfs-local;0.8.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.tachyonproject#tachyon-common;0.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.tachyonproject#tachyon-underfs-local;0.8.2->com.google.guava#guava;14.0.1 [compile->master(compile)][0m
@@ -3489,24 +3148,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies wghexperiments#wghexperiments_2.10;1.0->org.apache.spark#spark-mllib_2.10;1.6.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib_2.10;1.6.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-mllib_2.10;1.6.1 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-mllib_2.10;1.6.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-mllib_2.10/1.6.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-mllib_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.6.1/spark-mllib_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-mllib_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.6.1/spark-mllib_2.10-1.6.1.pom (1.6.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.6.1/spark-mllib_2.10-1.6.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.6.1/spark-mllib_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.6.1/spark-mllib_2.10-1.6.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.6.1/spark-mllib_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;1.6.1!spark-mllib_2.10.pom(pom.original) (342ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.6.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-mllib_2.10/1.6.1/jars/spark-mllib_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.6.1/spark-mllib_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-mllib_2.10;1.6.1 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-mllib_2.10;1.6.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-mllib_2.10;1.6.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies wghexperiments#wghexperiments_2.10;1.0->org.apache.spark#spark-mllib_2.10;1.6.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies wghexperiments#wghexperiments_2.10;1.0->org.apache.spark#spark-mllib_2.10;1.6.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.6.1->org.apache.spark#spark-core_2.10;1.6.1 [compile->master(compile)][0m
@@ -3515,25 +3158,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.6.1->org.apache.spark#spark-core_2.10;1.6.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.6.1->org.apache.spark#spark-streaming_2.10;1.6.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-streaming_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59047f25[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-streaming_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@59047f25[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-streaming_2.10/1.6.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-streaming_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.6.1/spark-streaming_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-streaming_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.6.1/spark-streaming_2.10-1.6.1.pom (1.6.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.6.1/spark-streaming_2.10-1.6.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.6.1/spark-streaming_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.6.1/spark-streaming_2.10-1.6.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.6.1/spark-streaming_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.10;1.6.1!spark-streaming_2.10.pom(pom.original) (361ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.6.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-streaming_2.10/1.6.1/jars/spark-streaming_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.6.1/spark-streaming_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-streaming_2.10;1.6.1 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-streaming_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-streaming_2.10;1.6.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-streaming_2.10;1.6.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.6.1->org.apache.spark#spark-streaming_2.10;1.6.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.6.1->org.apache.spark#spark-core_2.10;1.6.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.6.1->org.apache.spark#spark-core_2.10;1.6.1 [compile->compile(*)][0m
@@ -3552,48 +3179,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.6.1->org.apache.spark#spark-sql_2.10;1.6.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sql_2.10;1.6.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-sql_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sql_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-sql_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-sql_2.10/1.6.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-sql_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-sql_2.10/1.6.1/spark-sql_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-sql_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-sql_2.10/1.6.1/spark-sql_2.10-1.6.1.pom (1.6.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-sql_2.10/1.6.1/spark-sql_2.10-1.6.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-sql_2.10/1.6.1/spark-sql_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-sql_2.10/1.6.1/spark-sql_2.10-1.6.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-sql_2.10/1.6.1/spark-sql_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sql_2.10;1.6.1!spark-sql_2.10.pom(pom.original) (388ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.6.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-sql_2.10/1.6.1/jars/spark-sql_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-sql_2.10/1.6.1/spark-sql_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-sql_2.10;1.6.1 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-sql_2.10;1.6.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-sql_2.10;1.6.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.6.1->org.apache.spark#spark-sql_2.10;1.6.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.10;1.6.1->org.apache.spark#spark-core_2.10;1.6.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.10;1.6.1->org.apache.spark#spark-core_2.10;1.6.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.10;1.6.1->org.apache.spark#spark-catalyst_2.10;1.6.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-catalyst_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18761598[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-catalyst_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@18761598[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-catalyst_2.10/1.6.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-catalyst_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-catalyst_2.10/1.6.1/spark-catalyst_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-catalyst_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-catalyst_2.10/1.6.1/spark-catalyst_2.10-1.6.1.pom (1.6.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-catalyst_2.10/1.6.1/spark-catalyst_2.10-1.6.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-catalyst_2.10/1.6.1/spark-catalyst_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-catalyst_2.10/1.6.1/spark-catalyst_2.10-1.6.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-catalyst_2.10/1.6.1/spark-catalyst_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.10;1.6.1!spark-catalyst_2.10.pom(pom.original) (701ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.6.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-catalyst_2.10/1.6.1/jars/spark-catalyst_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-catalyst_2.10/1.6.1/spark-catalyst_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-catalyst_2.10;1.6.1 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-catalyst_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-catalyst_2.10;1.6.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-catalyst_2.10;1.6.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.10;1.6.1->org.apache.spark#spark-catalyst_2.10;1.6.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-catalyst_2.10;1.6.1->org.scala-lang#scala-reflect;2.10.5 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.5 ...[0m
@@ -3758,24 +3353,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.6.1->org.apache.spark#spark-graphx_2.10;1.6.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.10;1.6.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-graphx_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-graphx_2.10;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-graphx_2.10/1.6.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-graphx_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.6.1/spark-graphx_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-graphx_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.6.1/spark-graphx_2.10-1.6.1.pom (1.6.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.6.1/spark-graphx_2.10-1.6.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.6.1/spark-graphx_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.6.1/spark-graphx_2.10-1.6.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.6.1/spark-graphx_2.10-1.6.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.6.1!spark-graphx_2.10.pom(pom.original) (535ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.6.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.6.1[0m
-[0m[[0mdebug[0m] [0m		tried /Users/guanhua/.ivy2/local/org.apache.spark/spark-graphx_2.10/1.6.1/jars/spark-graphx_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.6.1/spark-graphx_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-graphx_2.10;1.6.1 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-graphx_2.10;1.6.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-graphx_2.10;1.6.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.6.1->org.apache.spark#spark-graphx_2.10;1.6.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.1->org.apache.spark#spark-core_2.10;1.6.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.1->org.apache.spark#spark-core_2.10;1.6.1 [compile->compile(*)][0m
@@ -19363,52 +18942,17 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.10;1.6.1!spark-core_2.10.jar (8435ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.6.1/spark-mllib_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.6.1/spark-mllib_2.10-1.6.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.6.1/spark-mllib_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.6.1/spark-mllib_2.10-1.6.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.6.1/spark-mllib_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;1.6.1!spark-mllib_2.10.jar (3953ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-core_2.10;1.6.1!spark-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-mllib_2.10;1.6.1!spark-mllib_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.avro#avro-mapred;1.7.7!avro-mapred.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#chill_2.10;0.5.0!chill_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#chill-java;0.5.0!chill-java.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.xbean#xbean-asm5-shaded;4.4!xbean-asm5-shaded.jar(bundle) (718ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.xbean#xbean-asm5-shaded;4.4!xbean-asm5-shaded.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-client;2.2.0!hadoop-client.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.6.1/spark-launcher_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.6.1/spark-launcher_2.10-1.6.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.6.1/spark-launcher_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.6.1/spark-launcher_2.10-1.6.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.6.1/spark-launcher_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.10;1.6.1!spark-launcher_2.10.jar (635ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.6.1/spark-network-common_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.6.1/spark-network-common_2.10-1.6.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.6.1/spark-network-common_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.6.1/spark-network-common_2.10-1.6.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.6.1/spark-network-common_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.10;1.6.1!spark-network-common_2.10.jar (2088ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.6.1/spark-network-shuffle_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.6.1/spark-network-shuffle_2.10-1.6.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.6.1/spark-network-shuffle_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.6.1/spark-network-shuffle_2.10-1.6.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.6.1/spark-network-shuffle_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.10;1.6.1!spark-network-shuffle_2.10.jar (363ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-unsafe_2.10;1.6.1!spark-unsafe_2.10.jar (345ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-launcher_2.10;1.6.1!spark-launcher_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-network-common_2.10;1.6.1!spark-network-common_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-network-shuffle_2.10;1.6.1!spark-network-shuffle_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-unsafe_2.10;1.6.1!spark-unsafe_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.7.1!jets3t.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)[0m
@@ -19421,19 +18965,9 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.10!slf4j-log4j12.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.ning#compress-lzf;1.0.3!compress-lzf.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.xerial.snappy#snappy-java;1.1.2!snappy-java.jar(bundle) (653ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.2!snappy-java.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.jpountz.lz4#lz4;1.3.0!lz4.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.roaringbitmap#RoaringBitmap;0.5.11!RoaringBitmap.jar(bundle) (678ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.roaringbitmap#RoaringBitmap;0.5.11!RoaringBitmap.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-net#commons-net;2.2!commons-net.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.10;2.3.11!akka-remote_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.10;2.3.11!akka-slf4j_2.10.jar[0m
@@ -19452,12 +18986,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4!jackson-module-scala_2.10.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.ivy#ivy;2.4.0!ivy.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] oro#oro;2.0.8!oro.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-client;0.8.2!tachyon-client.jar (3292ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tachyonproject#tachyon-client;0.8.2!tachyon-client.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.razorvine#pyrolite;4.9!pyrolite.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sf.py4j#py4j;0.9!py4j.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.spark-project.spark#unused;1.0.0!unused.jar[0m
@@ -19529,50 +19058,15 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-underfs-hdfs;0.8.2!tachyon-underfs-hdfs.jar (434ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-underfs-s3;0.8.2!tachyon-underfs-s3.jar (1632ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-underfs-local;0.8.2!tachyon-underfs-local.jar (431ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.6.1/spark-streaming_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.6.1/spark-streaming_2.10-1.6.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.6.1/spark-streaming_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.6.1/spark-streaming_2.10-1.6.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.6.1/spark-streaming_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.10;1.6.1!spark-streaming_2.10.jar (916ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-sql_2.10/1.6.1/spark-sql_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-sql_2.10/1.6.1/spark-sql_2.10-1.6.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-sql_2.10/1.6.1/spark-sql_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-sql_2.10/1.6.1/spark-sql_2.10-1.6.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-sql_2.10/1.6.1/spark-sql_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sql_2.10;1.6.1!spark-sql_2.10.jar (2713ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.6.1/spark-graphx_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.6.1/spark-graphx_2.10-1.6.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.6.1/spark-graphx_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.6.1/spark-graphx_2.10-1.6.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.6.1/spark-graphx_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.6.1!spark-graphx_2.10.jar (1521ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tachyonproject#tachyon-underfs-hdfs;0.8.2!tachyon-underfs-hdfs.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tachyonproject#tachyon-underfs-s3;0.8.2!tachyon-underfs-s3.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tachyonproject#tachyon-underfs-local;0.8.2!tachyon-underfs-local.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-streaming_2.10;1.6.1!spark-streaming_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-sql_2.10;1.6.1!spark-sql_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-graphx_2.10;1.6.1!spark-graphx_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalanlp#breeze_2.10;0.11.2!breeze_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jpmml#pmml-model;1.1.15!pmml-model.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-catalyst_2.10/1.6.1/spark-catalyst_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-catalyst_2.10/1.6.1/spark-catalyst_2.10-1.6.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-catalyst_2.10/1.6.1/spark-catalyst_2.10-1.6.1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-catalyst_2.10/1.6.1/spark-catalyst_2.10-1.6.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-catalyst_2.10/1.6.1/spark-catalyst_2.10-1.6.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.10;1.6.1!spark-catalyst_2.10.jar (3174ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-catalyst_2.10;1.6.1!spark-catalyst_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-column;1.7.0!parquet-column.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-hadoop;1.7.0!parquet-hadoop.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar[0m
@@ -19604,21 +19098,21 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 36831ms :: artifacts dl 32090ms[0m
-[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 compile produced in /Users/guanhua/Desktop/decision/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 runtime produced in /Users/guanhua/Desktop/decision/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 test produced in /Users/guanhua/Desktop/decision/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 provided produced in /Users/guanhua/Desktop/decision/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 optional produced in /Users/guanhua/Desktop/decision/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 compile-internal produced in /Users/guanhua/Desktop/decision/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 runtime-internal produced in /Users/guanhua/Desktop/decision/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 test-internal produced in /Users/guanhua/Desktop/decision/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 plugin produced in /Users/guanhua/Desktop/decision/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 sources produced in /Users/guanhua/Desktop/decision/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 docs produced in /Users/guanhua/Desktop/decision/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 pom produced in /Users/guanhua/Desktop/decision/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 scala-tool produced in /Users/guanhua/Desktop/decision/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (36831ms resolve - 32090ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2836ms :: artifacts dl 95ms[0m
+[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 compile produced in /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 runtime produced in /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 test produced in /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 provided produced in /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 optional produced in /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 compile-internal produced in /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 runtime-internal produced in /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 test-internal produced in /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 plugin produced in /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 sources produced in /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 docs produced in /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 pom produced in /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for wghexperiments#wghexperiments_2.10;1.0 scala-tool produced in /Users/guanhua/Desktop/Benefault/decisionTree_spark1.6.1/target/resolution-cache/reports/wghexperiments-wghexperiments_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (2836ms resolve - 95ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
 [0m[[33mwarn[0m] [0mScala version was updated by one of library dependencies:[0m
 [0m[[33mwarn[0m] [0m	* org.scala-lang:scala-library:(2.10.4, 2.10.2, 2.10.3, 2.10.0) -> 2.10.5[0m
