@@ -4,7 +4,7 @@
 3. Wait before forceful termination -- `yarn.resourcesmanager.monitor.capacity.preemption.monitoring_interval`. If the container under the preempt list not set free, RM will force it terminate (`ContainerExitStatus=Preempted`). And notify corresponding AM in the next round HeartBeat.
 
 ## Configurations (yarn-site.xml):
-`yarn.resourcemanager.scheduler.monitor.enable`
+`yarn.resourcemanager.scheduler.monitor.enable` = true
 
 `yarn.resourcemanager.scheduler.monitor.policies`
 
