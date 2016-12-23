@@ -10,9 +10,9 @@
 
 enalbe preemption => `org.apache.hadoop.yarn.server.resourcemanager.monitor.capacity.ProportionalCapacityPreemptionPolicy`
 
-`yarn.resourcemanager.monitor.capacity.preemption.monitoring_interval` like heartbeat interval for system monitoring.
+`yarn.resourcemanager.monitor.capacity.preemption.monitoring_interval` like heartbeat interval for system monitoring (default 3000).
 
-`yarn.resourcemanager.monitor.capacity.preemption.max_wait_before_kill` = force_kill_time - mark_preempted_time
+`yarn.resourcemanager.monitor.capacity.preemption.max_wait_before_kill` = force_kill_time - mark_preempted_time (default 15000)
 
 `yarn.resourcemanager.monitor.capacity.preemption.total_preemption_per_round`, here round = each `monitoring_interval`
 
