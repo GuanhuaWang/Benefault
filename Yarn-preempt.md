@@ -19,3 +19,7 @@ enalbe preemption => `org.apache.hadoop.yarn.server.resourcemanager.monitor.capa
 `yarn.resourcemanager.monitor.capacity.preemption.max_ignored_over_capacity`  Quene A `configured_capacity`= (1+`max_ignored_over_capacity`) x, before being considered for preemption
 
 `yarn.resourcemanager.monitor.capacity.preemption.natural_termination_factor`: natural_termination_factor=0.2(default), each round will preempt 20% of this queue's resources.
+
+
+##Previous works on Preemption
+1. Instead of kill most recently launched tasks of each job, they select and kill the most recently launched task GLOBALY.
