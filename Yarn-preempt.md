@@ -32,5 +32,5 @@ enalbe preemption => `org.apache.hadoop.yarn.server.resourcemanager.monitor.capa
     (2)When resume, deserializes checkpoint and skips to current key counter. 
     (3)However, since application-dependent, need programmer to write them.
     
-4. "Amoeba" => split long task into short ones. Transfering/Carrying states is unpredictable and maybe siginificant.
+4. "Amoeba" => split long task into short ones. Transfering/Carrying states is unpredictable and maybe siginificant. Key-based periodic checkpointing report to AM. When preempt, AM send request to stop Task and resume the task of unprocessed keys on another node.
 
