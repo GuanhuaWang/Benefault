@@ -23,11 +23,11 @@ enalbe preemption => `org.apache.hadoop.yarn.server.resourcemanager.monitor.capa
 
 ##Previous works on Preemption
 
-1. Instead of kill most recently launched tasks of each job, they select and kill the most recently launched task GLOBALLY. (keep long tasks run and kill short tasks first)
+1. "Global Preemption" => Instead of kill most recently launched tasks of each job, they select and kill the most recently launched task GLOBALLY. (keep long tasks run and kill short tasks first)
 
-2. Using OS suspension and paging for task preemption.
+2. "OS-assisted" => Using OS suspension and paging for task preemption.
 
-3. on-demand checkpointing (preempt and resume)
+3. "Natjam"=> on-demand checkpointing (preempt and resume)
     (1)For stateful tasks, when preempted, inter-key datastructures are serialized and copied to HDFS.
     (2)When resume, deserializes checkpoint and skips to current key counter. 
     (3)However, since application-dependent, need programmer to write them.
