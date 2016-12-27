@@ -31,4 +31,6 @@ enalbe preemption => `org.apache.hadoop.yarn.server.resourcemanager.monitor.capa
     (1)For stateful tasks, when preempted, inter-key datastructures are serialized and copied to HDFS.
     (2)When resume, deserializes checkpoint and skips to current key counter. 
     (3)However, since application-dependent, need programmer to write them.
+    
+4. "Amoeba" => split long task into short ones.
 
