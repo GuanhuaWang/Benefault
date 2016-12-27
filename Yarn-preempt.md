@@ -28,7 +28,7 @@ enalbe preemption => `org.apache.hadoop.yarn.server.resourcemanager.monitor.capa
 2. Using OS suspension and paging for task preemption.
 
 3. on-demand checkpointing (preempt and resume)
-    3.1 For stateful tasks, when preempted, inter-key datastructures are serialized and copied to HDFS.
-    3.2 When resume, deserializes checkpoint and skips to current key counter. 
+    (1)For stateful tasks, when preempted, inter-key datastructures are serialized and copied to HDFS.
+    (2)When resume, deserializes checkpoint and skips to current key counter. 
     (3)However, since application-dependent, need programmer to write them.
 
