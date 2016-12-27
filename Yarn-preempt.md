@@ -22,4 +22,9 @@ enalbe preemption => `org.apache.hadoop.yarn.server.resourcemanager.monitor.capa
 
 
 ##Previous works on Preemption
+
 1. Instead of kill most recently launched tasks of each job, they select and kill the most recently launched task GLOBALLY. (keep long tasks run and kill short tasks first)
+
+2. Using OS suspension and paging for task preemption.
+
+3. on-demand checkpointing (preempt and resume) , 
