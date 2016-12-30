@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0mPackaging /Users/guanhua/Desktop/rddcp/target/scala-2.10/wghexperiments_2.10-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/RDDUtilsInSpark$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/guanhua/Desktop/rddcp/target/scala-2.10/classes/org/apache/spark/RDDUtilsInSpark$.class[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark[0m
+[0m[[0mdebug[0m] [0m	  /Users/guanhua/Desktop/rddcp/target/scala-2.10/classes/org/apache/spark[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/RDDUtilsInSpark.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/guanhua/Desktop/rddcp/target/scala-2.10/classes/org/apache/spark/RDDUtilsInSpark.class[0m
+[0m[[0mdebug[0m] [0m	org[0m
+[0m[[0mdebug[0m] [0m	  /Users/guanhua/Desktop/rddcp/target/scala-2.10/classes/org[0m
+[0m[[0mdebug[0m] [0m	org/apache[0m
+[0m[[0mdebug[0m] [0m	  /Users/guanhua/Desktop/rddcp/target/scala-2.10/classes/org/apache[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
