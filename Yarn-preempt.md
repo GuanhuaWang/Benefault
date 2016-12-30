@@ -34,3 +34,4 @@ enalbe preemption => `org.apache.hadoop.yarn.server.resourcemanager.monitor.capa
     
 4. "Amoeba" => Focus on Reduce tasks. split long task into short ones. Transfering/Carrying states is unpredictable and maybe siginificant. Key-based periodic checkpointing report to AM. When preempt, AM send request to stop Task and resume the task of unprocessed keys on another node.
 
+5. Randomized weighted majority. Choose the majority vote for whether to checkpointing after each iteration.
