@@ -37,3 +37,4 @@ enalbe preemption => `org.apache.hadoop.yarn.server.resourcemanager.monitor.capa
 5. Randomized weighted majority. Choose the majority vote for whether to checkpointing after each iteration.
 
 6. fixed re-start point. E.g. sum of probability == 1 . Leverage the machine learning robustness of convergence.
+       
