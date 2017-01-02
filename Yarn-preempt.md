@@ -40,4 +40,4 @@ enalbe preemption => `org.apache.hadoop.yarn.server.resourcemanager.monitor.capa
 
 7. Asynchronous fault recovery. Operation based. Using the persistent data of previous stage to achieve partial recovery. 
 
-8. Spark streaming support asynchronous checkpointing. and also          
+8. Spark streaming support periodcally checkpointing. asynchronous replicating to other worker nodes.         
