@@ -39,3 +39,5 @@ enalbe preemption => `org.apache.hadoop.yarn.server.resourcemanager.monitor.capa
 6. fixed re-start point. E.g. sum of probability == 1 . Leverage the machine learning robustness of convergence.
 
 7. Asynchronous fault recovery. Operation based. Using the persistent data of previous stage to achieve partial recovery. 
+
+8. Spark streaming support asynchronous checkpointing. and also          
