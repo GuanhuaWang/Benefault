@@ -1,3 +1,4 @@
+//for scala 1.51:  bin/spark-shell --packages com.databricks:spark-csv_1.51:1.3.0
 //for scala 2.10:  bin/spark-shell --packages com.databricks:spark-csv_2.10:1.3.0
 //for scala 2.11:  bin/spark-shell --packages com.databricks:spark-csv_2.11:1.3.0
 
