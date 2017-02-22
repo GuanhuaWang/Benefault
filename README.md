@@ -8,6 +8,7 @@ A way for task preemption in Big data analytics platform
 * read and write for chekcpointing data (note: checkpointRead is private in spark, we need to package function into org.apache.spark)
 
 ### We have already done some simulation about the JCT gain we can get using Benefault
+The performance gain is 15-30%
 
 ### We test latency in varied scenarios
 * Measure checkpoint latency using Spark
@@ -17,3 +18,4 @@ A way for task preemption in Big data analytics platform
 * DecisionTree with periodic Checkpointing
 * We now design schemes for evaluate best gain we can get using Benefault
 * find sweet spot for whether kill or preempt
+
