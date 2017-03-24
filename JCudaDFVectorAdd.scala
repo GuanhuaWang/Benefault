@@ -2,7 +2,7 @@ import jcuda.driver.JCudaDriver._
 import java.io._
 import jcuda._
 import jcuda.driver._
-
+//import jcuda
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
