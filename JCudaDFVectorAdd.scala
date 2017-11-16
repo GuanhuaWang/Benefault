@@ -13,7 +13,6 @@ import org.apache.spark.sql.SQLContext._
 //remove if not needed
 import scala.collection.JavaConversions._
 
-
 object JCudaDFVectorAdd {
 
   def main(args: Array[String]) {
@@ -186,17 +185,6 @@ object JCudaDFVectorAdd {
     baos.toByteArray()
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
